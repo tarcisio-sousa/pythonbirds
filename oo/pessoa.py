@@ -18,3 +18,8 @@ if __name__ == '__main__':
     for filho in edilson.filhos:
         print(filho.nome)
 
+    edilson.sobrenome = 'Sousa'
+    del edilson.filhos
+    print(edilson.__dict__)
+    print(tarcisio.__dict__)
+
